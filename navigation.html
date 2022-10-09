@@ -9,7 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
-        .photo {
+        .carouselExample {
            height: 200px;width: 25px;size: 100px;
            display: flex;
         }
@@ -32,7 +32,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="">Something C</a>
                     </li>
-                </ul>
+                </ul><form class="d-flex">
+                <input class="form control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">SEARCH</button>
+                </form>
             </div>
         </nav>
  </header>
@@ -52,6 +55,7 @@
         <div class="p-3 border">Block image</div>  <img src="" class="rounded-float-end" alt=""></div>
     </div>
 </div>
+<!--carousel for sliding image-->
 <div id="carouselExample" class="carousel" slide data-bs-ride="carousel">
 <div class="carousel-inner">
     <div class="carousel-item active"><img src="raw.jpg" class="d-block w-100" alt=""></div>
@@ -59,8 +63,10 @@
 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria hidden="true"></span>
 <span class="visually-hidden">Previous</span>
+    <div class="carousel-item active">
 </button>
 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria hidden="true"></span>
 <span class="visually-hidden">Next</span>
+    <div class="carousel-item active">
 </button></div></body></html>
