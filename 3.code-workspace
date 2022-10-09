@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"uri": "vscode-vfs://https:/github.com/users/cedec1985/projects/3"
+			"uri": "vscode-vfs:https://github.com/users/cedec1985/projects/3"
 		},
 		{
 			"name": "bankaccount",
