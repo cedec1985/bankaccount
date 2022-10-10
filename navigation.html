@@ -113,7 +113,7 @@
 </figcaption>
 </figure>
 <i><em><h1 id="title" class="display-2 text-center">TITLE 3</h1></em></i>
-<div class="container">
+<div class="container align-content-lg-center">
 <div class="row">
 <div class ="col align-self-start">portfolio image example 1<img src="raw.jpg" class="img-fluid w-70" alt="">
     <span class="d-inline bg-info">display: inline</span>
@@ -131,20 +131,55 @@
 </div></div>
 <hr>
 <hr>
-<div class="d-flex flex-column" id="itemf">
-    <div class=" border p-2">Flex item 1</div>
+<div class="container-fluid"></div>
+    <div class="row gx-3">
+    <div class ="col-md-4">
+    <div class=" border p-2" >Flex item 1</div>
+    <span class="d-inline bg-info">display: inline</span>
+    to wrap the text inside
     <div class=" border p-2">Flex item 2</div>
+    <span class="d-inline bg-info"></span>
+    to wrap the text inside
     <div class="border p-2">Flex item 3</div>
-  </div>
-  <div class="d-flex flex-column-reverse" id="itemf">
-    <div class="border p-2">Flex item 1</div>
-    <div class=" border p-2">Flex item 2</div>
-    <div class=" border p-2">Flex item 3</div>
+    <span class="d-inline bg-info">display: inline</span>
+    to wrap the text inside
+    <div class="border p-2">Flex item 4</div>
+    <span class="d-inline bg-info">display: inline</span>
+    to wrap the text inside .</div>
+    <div class="row gx-3"></div>
+    <div class ="col-md-4">
+      <div class=" border p-2">Flex item 1</div>
+      <span class="d-inline bg-info">display: inline</span>
+      to wrap the text inside
+      <div class=" border p-2">Flex item 2</div>
+      <span class="d-inline bg-info">display: inline</span>
+      to wrap the text inside 
+      <div class="border p-2">Flex item 3</div>
+      <span class="d-inline bg-info">display: inline</span>
+      to wrap the text inside
+      <div class="border p-2">Flex item 4</div>
+      <span class="d-inline bg-info">display: inline</span>
+      to wrap the text inside
+     
   </div>
   <!--add an embedded video-->
   <div class="embed-responsive embed-responsive-16by9" id="video">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-  </div>
+  </div></div>
+  <!-- datalist for searching portfolios-->
+<hr>
+<hr>
+    
+<!--textarea-->
+<div class="form-floating">
+  <textarea class="form-control" placeholder="leave a comment here" id="floatingtextarea"></textarea>
+  <label for="floatingtextarea">Comments</label>
+ <label for="exampleDataList" class="form-label">data list example</label>
+  <input class="form-control-sm" list="dataListOptions" id="exampleDataList" placeholder="Type to search a cityscape">
+  <datalist id="dataListOptions">
+ <option value="san francisco">
+ <option value ="seattle">
+ <option value="chicago"></datalist></div>
 <!--form-->
 <i><em><h1 class="display-2 text-center" id="news">newsletter</h1></em></i>
 <div class="container-fluid border-dark p-2 text-center" id="news1"><span class="d-inline-block w-50">
@@ -208,3 +243,15 @@
     </button></span></form></div>
   </form>
 </body></html>
+<br>
+<br>
+<br>
+<!--breadcrumb-->
+<nav style ="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb"></nav>
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="#">HOME</a>
+  </li>
+  <li class="breadcrumb-item active" aria-current="page">LIBRAIRY</a>
+  </li>
+</ol>
+</nav>
