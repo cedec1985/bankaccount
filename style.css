@@ -1,5 +1,30 @@
-.quote {
-    border: 5px solid;
+.border {
+    border: 10px solid;
+    background-color:blueviolet;
     border-radius: 2em;
-    border-color: blue;
+    border-color: rgb(192, 17, 26);
+    border-style: ridge 2em 5em 2em;
+    border-bottom-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
 }
+.nav-item {
+    height: 100px;width: 5px;size: 10px;
+    display: flex;
+ }
+ .display-2{
+    text-decoration-line: underline;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(19, 175, 26);
+    font-size:medium;
+    font-family: Verdana;
+ }
+ #itemf{
+    border-style: groove;
+    border-spacing: 1cm;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: absolute;
+ }
+ #news1:hover{
+    background-color:gold}

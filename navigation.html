@@ -8,13 +8,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style>
-        .nav-item {
-           height: 100px;width: 5px;size: 10px;
-           display: flex;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    </head>
     <!--navigation-->
     <header>
         <nav class="navbar bg-dark navbar-dark justify-content-center">
@@ -99,7 +94,7 @@
 <hr>
 <hr>
 <!--carousel for sliding image-->
-<i><em><h1 class="display-2 text-center ">TITLE 2</h1>></em></i>
+<i><em><h1 id ="title" class="display-2 text-center ">TITLE 2</h1>></em></i>
 <div id="carouselExample" class="carousel" slide data-bs-ride="carousel">
 <div class="carousel-inner">
 <div class="carousel-item active"><img src="raw.jpg" class="d-block w-100" alt=""></div>
@@ -113,11 +108,11 @@
 <span class="visually-hidden">Next</span></button></div>
 <!-- add a quote and a cite-->
 <figure class="text-center">
-<blockquote class="blockquote"><p id="quote" class="border p-8" border-style="ridge" border-width="25%">a well-known quote</p></blockquote>
+<blockquote class="blockquote"><p id="quote" class="border p-8">a well-known quote</p></blockquote>
 <figcaption class="blockquote-footer">someone famous in<cite title="source title"></cite>
 </figcaption>
 </figure>
-<i><em><h1 class="display-2 text-center">TITLE 3</h1></em></i>
+<i><em><h1 id="title" class="display-2 text-center">TITLE 3</h1></em></i>
 <div class="container">
 <div class="row">
 <div class ="col align-self-start">portfolio image example 1<img src="raw.jpg" class="img-fluid w-70" alt="">
@@ -136,13 +131,13 @@
 </div></div>
 <hr>
 <hr>
-<div class="d-flex flex-column">
-    <div class=" border p-lg-2">Flex item 1</div>
+<div class="d-flex flex-column" id="itemf">
+    <div class=" border p-2">Flex item 1</div>
     <div class=" border p-2">Flex item 2</div>
     <div class="border p-2">Flex item 3</div>
   </div>
-  <div class="d-flex flex-column-reverse">
-    <div class="border p-lg-2">Flex item 1</div>
+  <div class="d-flex flex-column-reverse" id="itemf">
+    <div class="border p-2">Flex item 1</div>
     <div class=" border p-2">Flex item 2</div>
     <div class=" border p-2">Flex item 3</div>
   </div>
@@ -151,8 +146,8 @@
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
   </div>
 <!--form-->
-<i><em><h1 class="display-2 text-center">newsletter</h1></em></i>
-<div class="container-fluid border-dark p-2 text-center"><span class="d-inline-block w-50">
+<i><em><h1 class="display-2 text-center" id="news">newsletter</h1></em></i>
+<div class="container-fluid border-dark p-2 text-center" id="news1"><span class="d-inline-block w-50">
 <form>
     <!-- 2 column grid layout with text inputs for the first and last names -->
     <div class="row mb-4">
