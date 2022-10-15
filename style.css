@@ -1,6 +1,6 @@
-.border {
+.border,#news {
     border: 10px solid;
-    background-color:blueviolet;
+    background-color:rgb(80, 16, 80);
     border-radius: 2em;
     border-color: rgb(192, 17, 26);
     border-style: ridge 2em 5em 2em;
@@ -9,7 +9,7 @@
     margin-left: 0.75em;
     margin-right: 0.75em;
     margin-bottom: 0.4em;
-    margin-top:0.25em
+    margin-top:0.25em;
 }
 .border.p-2 {
     max-width:250px;
@@ -27,6 +27,14 @@
     font-size:medium;
     font-family: Verdana;
  }
+ .display-1{
+    text-decoration-line: underline;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(19, 175, 26);
+    font-size:large;
+    font-family: Verdana;
+ }
  #itemf{
     border-style: groove;
     font-style: normal;
@@ -42,8 +50,30 @@
     font-weight: bold;
     color: brown;
 }
-.form-floating{
+.form-control, .form-label{
     max-width: 50%;
     max-height:5cm;
     max-zoom: 10%;
+    display:inline-flex;
+}
+.container-fluid{
+background-image: url(aventure\ montagne.jpg);
+background-repeat:repeat-y;
+background-position:top;
+}
+#contain{
+    border-style:groove ;
+    border-color: aqua;
+    border-radius:0.5em;
+    text-transform: capitalize;
+    border-bottom-width: 1cm;
+    border-left-width: 2cm;
+}
+#floatingtextarea{
+    border-style:groove ;
+border-color: aqua;
+border-radius:0.5em;
+text-transform: capitalize;
+border-bottom-width: 1cm;
+border-left-width: 2cm;
 }
