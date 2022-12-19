@@ -1,6 +1,6 @@
 <script src="canvasengine-X.Y.Z.all.min.js"></script>
-canvas.Scene.new({name:"preload",materials:{images:{background_preload:"C:\Users\Cédric\git\cedec1985\bankaccount\spéléologie.jpg",bar_empty:"C:\Users\Cédric\git\cedec1985\bankaccount\Rainbow-Progress-Bar-HTML-CSS.png",
-bar_full:"C:\Users\Cédric\git\cedec1985\bankaccount\CustomProgressBar.PNG"}},
+canvas.Scene.new({name:"preload",materials:{images:{background_preload:"C:\\Users\\Cédric\\git\\cedec1985\\bankaccount\\spéléologie.jpg",bar_empty:"C:\\Users\\Cédric\\git\\cedec1985\\bankaccount\\Rainbow-Progress-Bar-HTML-CSS.png",
+bar_full:"C:\\Users\\Cédric\\git\\cedec1985\\bankaccount\\CustomProgressBar.PNG"}},
 ready:function(stage){}});
 var self=this,
     el=this.createElement();
